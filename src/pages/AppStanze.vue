@@ -78,14 +78,6 @@
                 </div>
             </div>
 
-            <div class="row my-5 text-center">
-                <h1 class="mb-5">Scopri i fantastici Servizi</h1>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(card, index) in cards" :key="index">
-                    <div class="card">
-                        <img :src="card.image" class="card-img-top" :alt="card.title">
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
 </template>
@@ -95,38 +87,7 @@ export default {
     name: "AppStanze",
     data() {
         return {
-            cards: [
-                {
-                    title: 'Card title 1',
-                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: 'https://via.placeholder.com/100'
-                },
-                {
-                    title: 'Card title 2',
-                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: 'https://via.placeholder.com/100'
-                },
-                {
-                    title: 'Card title 3',
-                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: 'https://via.placeholder.com/100'
-                },
-                {
-                    title: 'Card title 4',
-                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: 'https://via.placeholder.com/100'
-                },
-                {
-                    title: 'Card title 4',
-                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: 'https://via.placeholder.com/100'
-                },
-                {
-                    title: 'Card title 4',
-                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: 'https://via.placeholder.com/100'
-                }
-            ]
+          
         };
     }
 };
