@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
  import AppHome from './pages/AppHome.vue';
+ import AppServizi from './pages/AppServizi.vue';
+ import AppStanze from './pages/AppStanze.vue';
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -10,12 +12,12 @@ const router = createRouter({
         },
         {
             path: '/servizi',
-            name: 'home',
-            component: AppHome
+            name: 'servizi',
+            component: AppServizi
         }, {
-            path: '/',
-            name: 'home',
-            component: AppHome
+            path: '/stanze',
+            name: 'stanze',
+            component: AppStanze
         },
     ],
 });
