@@ -13,7 +13,7 @@
                         <div id="border"></div>
                     </li>
                     <li class="nav-item ">
-                        <span class="nav-link"><router-link to="/colazioni">Colazioni</router-link></span>
+                        <span class="nav-link"><router-link to="/stanze">Stanze </router-link></span>
                         <div id="border"></div>
                     </li>
 
