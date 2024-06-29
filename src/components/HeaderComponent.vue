@@ -16,17 +16,9 @@
                         <span class="nav-link"><router-link to="/stanze">Stanze </router-link></span>
                         <div id="border"></div>
                     </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Link 1
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                            <a class="dropdown-item" href="#">Action 3</a>
-                        </div>
+                    <li class="nav-item ">
+                        <span class="nav-link"><router-link to="/contatti">Contatti</router-link></span>
+                        <div id="border"></div>
                     </li>
 
                 </ul>
@@ -94,6 +86,7 @@ header {
 
 a{
     text-decoration: none !important;
+    color: black !important;
 }
 
 .router-link-active {
