@@ -1,14 +1,35 @@
-<script setup>
-
-</script>
-
 <template>
- <h1>Hello</h1>
+  <div class="container">
+    <HeaderComponent />
+</div>
+<router-view></router-view>
+<FooterComponet />
+
+
+
 </template>
 
-<style lang = "scss" scoped>
-h1{
-  color: red;
-  font-size: 100px;
+<script>
+import { store } from './store.js';
+import HeaderComponent from './components/HeaderComponent.vue';
+import FooterComponet from './components/FooterComponent.vue';
+export default {
+  components: {
+    HeaderComponent,
+    FooterComponet
+  },
+  name: 'App',
+  data() {
+    return {
+      store
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.container {
+  margin: 0 auto;
 }
 </style>
+
