@@ -4,7 +4,7 @@
             <img src="../assets/img/piscina4.jpeg" alt="" />
         </div>
 
-        <div class="container">
+        <div class="container mb-6">
             <div class="row mb-3">
                 <div class="col-12 text-center mt-5 mb-3">
                     <h1>B&B - Antica Casina</h1>
@@ -34,10 +34,10 @@
                             <div class="row my-5">
                                 <div class="col-6">
                                     <div class="container">
-                                        <img class="image top" src="../assets/img/casa2.jpeg"
+                                        <img class="image top" src="../assets/img/malvito2.jpg"
                                             alt="Top Image">
                                         <img class="image bottom"
-                                            src="../assets/img/casa1.jpeg"
+                                            src="../assets/img/malvitocamera.jpg"
                                             alt="b&b image">
                                     </div>
                                 </div>
@@ -56,10 +56,10 @@
                             <div class="row my-5">
                                 <div class="col-6">
                                     <div class="container">
-                                        <img class="image top2" src="../assets/img/pratoepiscina.jpeg"
+                                        <img class="image top2" src="../assets/img/malvito3.jpg"   
                                             alt="Top Image">
                                         <img class="image bottom2"
-                                            src="../assets/img/piscina3.jpeg"
+                                            src="../assets/img/malvito4.jpg"
                                             alt="Bottom Image">
                                     </div>
                                 </div>
