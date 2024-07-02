@@ -28,11 +28,14 @@
                 </div>
             </div>
             <h2 class="text-center "><em>colazione</em></h2>`
-            <p></p>
+            <p>La prima colazione è il momento più importante di tutta la giornata, perché ci deve ricaricare dopo il digiuno notturno.
+Al mattino possiamo anche toglierci la voglia di qualcosa di dolce...
+La colazione servita nella nostra accogliente cucina comprende: caffè (tè, latte, cappuccino, cioccolata), brioches, fette biscottate, pane, burro e marmellata, cereali, succhi di frutta, torte fatte in casa assicurando un pieno di energia per tutta la giornata.
+Nel caso necessitate di cibi particolari o siate allergici possiamo venire incontro alle vostre esigenze, se avvisati con dovuto anticipo.</p>
             <div class="row my-5 text-center">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(card, index) in cards" :key="index">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(last, index) in colazione" :key="index">
                     <div class="card">
-                        <img :src="card.image" class="card-img-top" :alt="card.title">
+                        <img :src="last.image" class="card-img-top" :alt="last.title">
                     </div>
                 </div>
             </div>
@@ -84,32 +87,32 @@ export default {
                 {
                     title: 'Card title 1',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvitocamera.jpg'
+                    image: '../src/assets/img/stanza-colazione.jpg'
                 },
                 {
                     title: 'Card title 2',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito2.jpg'
+                    image: '../src/assets/img/col1.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito3.jpg'
+                    image: '../src/assets/img/col2.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito4.jpg'
+                    image: '../src/assets/img/col3.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito5.jpg'
+                    image: '../src/assets/img/col4.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito6.jpg'
+                    image: '../src/assets/img/col5.jpeg'
                 },
 
             ]
