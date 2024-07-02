@@ -2,8 +2,11 @@
   <div class="container">
     <HeaderComponent />
 </div>
-<router-view></router-view>
-<FooterComponet />
+<div class="bg-light">
+  <router-view ></router-view>
+  <FooterComponet />
+</div>
+
 
 
 

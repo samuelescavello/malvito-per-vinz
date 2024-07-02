@@ -13,14 +13,14 @@
                 </div>
                 
                 <div class="nav-item mx-2">
-                    <span class="nav-link"><router-link to="/stanze">Servizi </router-link></span>
+                    <span class="nav-link"><router-link to="/servizi">Servizi </router-link></span>
                     <div id="border"></div>
                 </div>
               
             </div>
 
             <div class="navbar" id="hamburgher-menu" @click="openMenu()">
-                <div class="container-fluid">
+                <div class="container-fluid mt-3">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
                      aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -35,9 +35,6 @@
                     
                     <li class="nav-item ">
                         <span class="nav-link"><router-link to="/stanze">servizi </router-link></span>
-                    </li>
-                    <li class="nav-item ">
-                        <span class="nav-link"><router-link to="/contatti">Contatti</router-link></span>
                     </li>
                     </ul>
                 </div>
@@ -94,6 +91,7 @@ header {
     padding: 0;
     height: 112px;
     background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #border {
