@@ -89,7 +89,7 @@
                 <h2 class="mt-3"><em>CONTATTI</em></h2>
                 <div class="container my-5">
                     <div class="row">
-                        <div class="col-md-6 order-md-2 my-3">
+                        <div class="col-lg-6 order-md-2 my-3">
                             <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title"><em>Contatti</em></h4>
@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 order-md-1 my-3">
+                        <div class="col-lg-6 order-md-1 my-3">
                             <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title"><em>Luogo</em></h4>
@@ -117,7 +117,7 @@
                                         <!-- Mappa di Google Maps -->
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.635754807172!2d16.060684211755525!3d39.61288700405266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133f0e9fe800c5cd%3A0xd92fcc44af73c3b5!2sB%26B%20L&#39;ANTICA%20CASINA%20di%20Campolongo%20Felicetta!5e0!3m2!1sit!2sit!4v1719942763534!5m2!1sit!2sit"
-                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                             referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </div>
@@ -179,7 +179,7 @@ main {
 
     #container {
         position: relative;
-        width: 100%;
+        width: 400px;
         /* Imposta la larghezza desiderata per il container */
         height: 300px;
         /* Imposta l'altezza desiderata per il container */
@@ -191,7 +191,7 @@ main {
 
     .image {
         position: absolute;
-        width: 400px;
+        width: 100%;
         height: 250px;
         object-fit: cover;
         border-radius: 10px;
