@@ -1,6 +1,6 @@
 <template>
     <Footer>
-        <div class="text-center pt-4 ">
+        <div class="text-center py-5">
             <h3><em>Bed & Breakfast Antica Casina</em></h3>
             <h4>di Felicetta Campolongo</h4>
         </div>
