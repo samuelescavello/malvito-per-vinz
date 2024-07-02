@@ -1,26 +1,26 @@
 <template>
     <header>
 
-        <nav class="container d-flex justify-content-between py-4  bg-white">
+        <nav class="container d-flex justify-content-between pt-2 bg-white">
             <div class="img-container">
                 <img src="../assets/img/2.png" alt="">
             </div>
 
-            <ul class="navbar-nav mr-auto d-flex none-1 ">
-                <li class="nav-item ">
+            <div class=" none-1 d-flex align-items-center">
+                <div class="nav-item mx-2">
                     <span class="nav-link"><router-link to="/">Home</router-link></span>
                     <div id="border"></div>
-                </li>
+                </div>
                 
-                <li class="nav-item ">
-                    <span class="nav-link"><router-link to="/stanze">servizi </router-link></span>
+                <div class="nav-item mx-2">
+                    <span class="nav-link"><router-link to="/stanze">Servizi </router-link></span>
                     <div id="border"></div>
-                </li>
-                <li class="nav-item ">
+                </div>
+                <div class="nav-item mx-2">
                     <span class="nav-link"><router-link to="/contatti">Contatti</router-link></span>
                     <div id="border"></div>
-                </li>
-            </ul>
+                </div>
+            </div>
 
             <div class="navbar" id="hamburgher-menu" @click="openMenu()">
                 <div class="container-fluid">
@@ -48,60 +48,6 @@
             </div>
 
         </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between container mt-2"  >
-            
-
-            <div class="navbar" id="hamburgher-menu" @click="openMenu()">
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <span class="nav-link"><router-link to="/">Home</router-link></span>
-                        <div id="border"></div>
-                    </li>
-                    
-                    <li class="nav-item ">
-                        <span class="nav-link"><router-link to="/stanze">servizi </router-link></span>
-                        <div id="border"></div>
-                    </li>
-                    <li class="nav-item ">
-                        <span class="nav-link"><router-link to="/contatti">Contatti</router-link></span>
-                        <div id="border"></div>
-                    </li>
-
-                </ul>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                    </button>
-            </div>
-           
-
-
-
-            </div>
-            
-        </nav> -->
     </header>
 </template>
 
@@ -136,21 +82,12 @@ export default {
     }
 
     .img-container{
-        width: 50px;
+        width: 90px;
         img{
             width: 100%;
         }
     }
  
-.navbar {
-    background-color: white;
-
-    img {
-        width: 50px;
-        height: 50px;
-    }
-}
-
 header {
     position: fixed;
     top: 0;
@@ -158,7 +95,7 @@ header {
     width: 100%;
     z-index: 1030;
     padding: 0;
-    height: 80px;
+    height: 112px;
     background-color: white;
 }
 
