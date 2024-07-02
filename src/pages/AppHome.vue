@@ -79,13 +79,53 @@
             </div>
 
             <div class="row my-5 text-center">
-                <h1 class="mb-5">grandi spazi aperti</h1>
+                <h2 class="mb-5">grandi spazi aperti</h2>
+                <p>La struttura vanta grandi spazi aperti che offrono un'oasi di tranquillità e relax. Il giardino, curato nei minimi dettagli, è arricchito da una varietà di piante e fiori che creano un'atmosfera incantevole e profumata.</p>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(card, index) in cards" :key="index">
                     <div class="card">
                         <img :src="card.image" class="card-img-top" :alt="card.title">
                     </div>
                 </div>
+                <h2 class="mt-3"><em>CONTATTI</em></h2>
+                <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6 order-md-2 my-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title"><em>Contatti</em></h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fa-regular fa-envelope"></i> <a
+                                        href="mailto:info@anticacasina.it">info@anticacasina.it</a></li>
+                                <li> <i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/message/3JGXRL3FKUIYH1"> cell. 347-6463840</a></li>
+                                
+                                <li><i class="fa-solid fa-phone"></i> telefono e fax. 0984-509537</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1 my-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title"><em>Luogo</em></h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fa-solid fa-location-dot"></i> C/da Trellenze, snc - 87010 Malvito (Cs)
+                                </li>
+                            </ul>
+                            <div class="mt-3">
+                                <!-- Mappa di Google Maps -->
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12098.33378993981!2d14.553874899999999!3d40.70517085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1719669072723!5m2!1sit!2sit"
+                                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+            </div>
+
+
             
         </div>
     </main>

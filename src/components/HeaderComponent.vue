@@ -1,19 +1,88 @@
 <template>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between container mt-2">
-            <img src="../assets/img/2.png" alt="">
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+
+        <nav class="container d-flex justify-content-between py-4  bg-white">
+            <div class="img-container">
+                <img src="../assets/img/2.png" alt="">
+            </div>
+
+            <ul class="navbar-nav mr-auto d-flex none-1 ">
+                <li class="nav-item ">
+                    <span class="nav-link"><router-link to="/">Home</router-link></span>
+                    <div id="border"></div>
+                </li>
+                
+                <li class="nav-item ">
+                    <span class="nav-link"><router-link to="/stanze">servizi </router-link></span>
+                    <div id="border"></div>
+                </li>
+                <li class="nav-item ">
+                    <span class="nav-link"><router-link to="/contatti">Contatti</router-link></span>
+                    <div id="border"></div>
+                </li>
+            </ul>
+
+            <div class="navbar" id="hamburgher-menu" @click="openMenu()">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+                     aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                    </button>
+                </div>
+
+                <div class="dropdown mt-2">
+                    <ul class="dropdown-menu " id="dropdown">
+                        <li class="nav-item ">
+                        <span class="nav-link"><router-link to="/">Home</router-link></span>
+                    </li>
+                    
+                    <li class="nav-item ">
+                        <span class="nav-link"><router-link to="/stanze">servizi </router-link></span>
+                    </li>
+                    <li class="nav-item ">
+                        <span class="nav-link"><router-link to="/contatti">Contatti</router-link></span>
+                    </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between container mt-2"  >
+            
+
+            <div class="navbar" id="hamburgher-menu" @click="openMenu()">
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
                         <span class="nav-link"><router-link to="/">Home</router-link></span>
                         <div id="border"></div>
                     </li>
+                    
                     <li class="nav-item ">
-                        <span class="nav-link"><router-link to="/servizi">Servizi</router-link></span>
-                        <div id="border"></div>
-                    </li>
-                    <li class="nav-item ">
-                        <span class="nav-link"><router-link to="/stanze">Stanze </router-link></span>
+                        <span class="nav-link"><router-link to="/stanze">servizi </router-link></span>
                         <div id="border"></div>
                     </li>
                     <li class="nav-item ">
@@ -22,12 +91,17 @@
                     </li>
 
                 </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                    </button>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
+           
+
+
+
+            </div>
+            
+        </nav> -->
     </header>
 </template>
 
@@ -39,11 +113,35 @@ export default {
         return {
             store
         }
-    }
+    },
+    methods: {
+            openMenu(){
+                document.getElementById("dropdown").classList.toggle("show");
+            }
+        }
 }
 </script>
 
 <style lang="scss" scoped>
+  #hamburgher-menu{
+        display: none;
+    }
+    @media screen and (max-width: 991px) {
+        .none-1{
+            display: none !important;
+        }
+        #hamburgher-menu{
+            display: block !important;
+        }
+    }
+
+    .img-container{
+        width: 50px;
+        img{
+            width: 100%;
+        }
+    }
+ 
 .navbar {
     background-color: white;
 
@@ -51,10 +149,6 @@ export default {
         width: 50px;
         height: 50px;
     }
-}
-
-.nav-item:hover .dropdown-menu {
-    display: block;
 }
 
 header {

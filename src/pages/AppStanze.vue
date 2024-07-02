@@ -5,24 +5,39 @@
                 <div class="col-12 text-center mt-5 mb-3">
                     <h1><em>le nostre stanze</em></h1>
                     <p>Le camere sono tutte molto spaziose e dotate di bagno privato.
-I servizi sono nuovi, ampi e confortevoli.
-L'arredamento delle camere è curato in ogni dettaglio, nel rispetto dello stile del luogo e dell'ambiente.
-Tutti gli ambienti hanno pavimenti in ceramica e più finestre da cui godere di splendidi panorami, appagati da uno scenario irripetibile.
-Il bed & breakfast dispone di X stanze, arredate con stile sobrio ed elegante, tutte dotate di aria condizionata, bagno, TV e cassaforte.
-Agli ospiti viene offerto: servizio di prima colazione a buffet nella sala al primo piano, parcheggio privato e biancheria.
-Le nostre stanze godono tutte di un ampia veduta, completamente arredate e corredate per rivivere il calore di casa propria.
-Tutte le camere sono scrupolosamente curate e pulite, con la massima attenzione nei particolari.</p>
+                        I servizi sono nuovi, ampi e confortevoli.
+                        L'arredamento delle camere è curato in ogni dettaglio, nel rispetto dello stile del luogo e
+                        dell'ambiente.
+                        Tutti gli ambienti hanno pavimenti in ceramica e più finestre da cui godere di splendidi
+                        panorami, appagati da uno scenario irripetibile.
+                        Il bed & breakfast dispone di X stanze, arredate con stile sobrio ed elegante, tutte dotate di
+                        aria condizionata, bagno, TV e cassaforte.
+                        Agli ospiti viene offerto: servizio di prima colazione a buffet nella sala al primo piano,
+                        parcheggio privato e biancheria.
+                        Le nostre stanze godono tutte di un ampia veduta, completamente arredate e corredate per
+                        rivivere il calore di casa propria.
+                        Tutte le camere sono scrupolosamente curate e pulite, con la massima attenzione nei particolari.
+                    </p>
                 </div>
                 <div class="row my-5 text-center">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(card, index) in cards" :key="index">
+                        <div class="card">
+                            <img :src="card.image" class="card-img-top" :alt="card.title">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center "><em>colazione</em></h2>`
+            <p></p>
+            <div class="row my-5 text-center">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(card, index) in cards" :key="index">
                     <div class="card">
                         <img :src="card.image" class="card-img-top" :alt="card.title">
                     </div>
                 </div>
             </div>
-            </div>
-
         </div>
+
     </main>
 </template>
 
@@ -62,7 +77,41 @@ export default {
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
                     image: '../src/assets/img/malvito6.jpg'
                 },
-                
+
+            ],
+
+            colazione: [
+                {
+                    title: 'Card title 1',
+                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+                    image: '../src/assets/img/malvitocamera.jpg'
+                },
+                {
+                    title: 'Card title 2',
+                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+                    image: '../src/assets/img/malvito2.jpg'
+                },
+                {
+                    title: 'Card title 3',
+                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+                    image: '../src/assets/img/malvito3.jpg'
+                },
+                {
+                    title: 'Card title 3',
+                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+                    image: '../src/assets/img/malvito4.jpg'
+                },
+                {
+                    title: 'Card title 3',
+                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+                    image: '../src/assets/img/malvito5.jpg'
+                },
+                {
+                    title: 'Card title 3',
+                    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+                    image: '../src/assets/img/malvito6.jpg'
+                },
+
             ]
         };
     }
@@ -72,6 +121,7 @@ export default {
 <style lang="scss" scoped>
 main {
     margin-top: 80px;
+
     .jumbo {
         height: 600px;
         width: 100%;
@@ -119,6 +169,7 @@ main {
         z-index: 1;
         /* Posto sotto l'altra immagine */
     }
+
     .image.top2 {
         top: 90px;
         left: 120px;
@@ -127,7 +178,7 @@ main {
         /* Posto sopra l'altra immagine */
     }
 
-    .image.bottom2{
+    .image.bottom2 {
         top: 0;
         /* Sposta leggermente più in basso */
         left: 0;
