@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="row my-5 ">
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-6 d-flex align-items-center ">
                         <div>
                             <h2>il nostro B&B</h2>
                             <p>
@@ -63,7 +63,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-6 d-flex align-items-center ">
                         <div>
                             <h2> comfort</h2>
                             <p>
@@ -228,5 +228,7 @@ main {
         z-index: 0;
         /* Posto sotto l'altra immagine */
     }
+
+    
 }
 </style>
