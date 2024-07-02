@@ -22,7 +22,7 @@
                 <div class="row my-5 text-center">
                     <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(card, index) in cards" :key="index">
                         <div class="card">
-                            <img :src="card.image" class="card-img-top" :alt="card.title">
+                            <img :src="card.image"  :alt="card.title">
                         </div>
                     </div>
                 </div>
@@ -34,8 +34,8 @@ La colazione servita nella nostra accogliente cucina comprende: caffè (tè, lat
 Nel caso necessitate di cibi particolari o siate allergici possiamo venire incontro alle vostre esigenze, se avvisati con dovuto anticipo.</p>
             <div class="row my-5 text-center">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(last, index) in colazione" :key="index">
-                    <div class="card">
-                        <img :src="last.image" class="card-img-top" :alt="last.title">
+                    <div class="card" id="card-colazione">
+                        <img :src="last.image"  :alt="last.title">
                     </div>
                 </div>
             </div>
@@ -123,70 +123,15 @@ export default {
 
 <style lang="scss" scoped>
 main {
-    margin-top: 80px;
-
-    .jumbo {
-        height: 600px;
+    margin-top: 100px;
+    #card-colazione{
         width: 100%;
-
-        img {
+        height: 300px;
+        img{
             width: 100%;
             height: 100%;
-            object-fit: cover;
         }
     }
-
-    #container {
-        position: relative;
-        width: 100%;
-        /* Imposta la larghezza desiderata per il container */
-        height: 300px;
-        /* Imposta l'altezza desiderata per il container */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* Imposta l'altezza e la larghezza desiderata per il container */
-    }
-
-    .image {
-        position: absolute;
-        width: 400px;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 10px;
-        /* Per mantenere le proporzioni dell'immagine */
-    }
-
-    .image.top {
-        top: 0;
-        left: 120px;
-        /* Sposta leggermente a sinistra */
-        z-index: 0;
-        /* Posto sopra l'altra immagine */
-    }
-
-    .image.bottom {
-        top: 90px;
-        /* Sposta leggermente più in basso */
-        left: 0;
-        z-index: 1;
-        /* Posto sotto l'altra immagine */
-    }
-
-    .image.top2 {
-        top: 90px;
-        left: 120px;
-        /* Sposta leggermente a sinistra */
-        z-index: 1;
-        /* Posto sopra l'altra immagine */
-    }
-
-    .image.bottom2 {
-        top: 0;
-        /* Sposta leggermente più in basso */
-        left: 0;
-        z-index: 0;
-        /* Posto sotto l'altra immagine */
-    }
+    
 }
 </style>
