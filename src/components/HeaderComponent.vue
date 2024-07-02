@@ -16,10 +16,7 @@
                     <span class="nav-link"><router-link to="/stanze">Servizi </router-link></span>
                     <div id="border"></div>
                 </div>
-                <div class="nav-item mx-2">
-                    <span class="nav-link"><router-link to="/contatti">Contatti</router-link></span>
-                    <div id="border"></div>
-                </div>
+              
             </div>
 
             <div class="navbar" id="hamburgher-menu" @click="openMenu()">
