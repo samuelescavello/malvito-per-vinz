@@ -22,9 +22,8 @@
                             proposte per il tempo libero che la bella Calabria può offrire.
                             Situato in una straordinaria posizione panoramica permette di godere di tramonti
                             indimenticabili.
-                            Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano,
+                            Gli ospiti potranno soggiornare in un edificio con camere situate al secondo piano,
                             ristrutturato di recente con tutti i comfort.
-                            Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
                         </p>
                     </div>
 
@@ -109,9 +108,6 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </main>
 </template>
@@ -222,6 +218,7 @@ main {
             width: 100%;
             margin-top: 50px !important;
             margin-left: -0%;
+            text-align: center;
         }
         .container-right {
             width: 80%;
@@ -229,6 +226,11 @@ main {
         }
         .container-img {
             display: block;
+        }
+    }
+    @media screen  and (max-width: 500px) {
+        .container-right {
+            width: 65%;
         }
     }
     
