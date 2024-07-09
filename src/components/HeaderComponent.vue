@@ -13,7 +13,7 @@
                 </div>
                 
                 <div class="nav-item mx-2">
-                    <span class="nav-link"><router-link to="/servizi">Servizi </router-link></span>
+                    <span class="nav-link"><router-link to="/stanze">servizi </router-link></span>
                     <div id="border"></div>
                 </div>
               
