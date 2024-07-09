@@ -80,7 +80,7 @@
                                         <li> <i class="fa-brands fa-whatsapp"></i><a
                                                 href="https://wa.me/message/3JGXRL3FKUIYH1"> cell. 347-6463840</a></li>
 
-                                        <li><i class="fa-solid fa-phone"></i> telefono e fax. 0984-509537</li>
+                                        <li><i class="fa-solid fa-phone"></i> telefono e fax. 0984-515404</li>
                                     </ul>
                                 </div>
                             </div>
