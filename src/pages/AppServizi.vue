@@ -96,32 +96,32 @@ export default {
                 {
                     title: 'Card title 1',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvitocamera.jpg'
+                    image: '/img/malvitocamera.jpg'
                 },
                 {
                     title: 'Card title 2',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito2.jpg'
+                    image: '/img/malvito2.jpg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito3.jpg'
+                    image: '/img/malvito3.jpg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito4.jpg'
+                    image: '/img/malvito4.jpg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito5.jpg'
+                    image: '/img/malvito5.jpg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/malvito6.jpg'
+                    image: '/img/malvito6.jpg'
                 },
 
             ],
@@ -130,32 +130,32 @@ export default {
                 {
                     title: 'Card title 1',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/stanza-colazione.jpg'
+                    image: '/img/stanza-colazione.jpg'
                 },
                 {
                     title: 'Card title 2',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/col1.jpeg'
+                    image: '/img/col1.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/col2.jpeg'
+                    image: '/img/col2.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/col3.jpeg'
+                    image: '/img/col3.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/col4.jpeg'
+                    image: '/img/col4.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/col5.jpeg'
+                    image: '/img/col5.jpeg'
                 },
 
             ],
@@ -163,27 +163,27 @@ export default {
             malvito: [
                 {
                  
-                    image: '../src/assets/img/malv11.jpeg'
+                    image: '/img/malv11.jpeg'
                 },
                 {
                     
-                    image: '../src/assets/img/malv12.jpeg'
+                    image: '/img/malv12.jpeg'
                 },
                 {
                     
-                    image: '../src/assets/img/malv13.jpeg'
+                    image: '/img/malv13.jpeg'
                 },
                 {
                     
-                    image: '../src/assets/img/malv14.jpeg'
+                    image: '/img/malv14.jpeg'
                 },
                 {
                     
-                    image: '../src/assets/img/malv15.jpeg'
+                    image: '/img/malv15.jpeg'
                 },
                 {
                     
-                    image: '../src/assets/img/malv16.jpeg'
+                    image: '/img/malv16.jpeg'
                 },
 
             ]

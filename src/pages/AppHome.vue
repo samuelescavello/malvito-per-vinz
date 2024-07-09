@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="jumbo">
-            <img src="../assets/img/piscina4.jpeg" alt="" />
+            <img src="/img/piscina4.jpeg" alt="" />
         </div>
 
         <div class="container">
@@ -30,8 +30,8 @@
 
                     <div class="container-right">
                         <div id="container">
-                            <img class="image top" src="../assets/img/casa2.jpeg" alt="Top Image">
-                            <img class="image bottom" src="../assets/img/casa1.jpeg" alt="b&b image">
+                            <img class="image top" src="/img/casa2.jpeg" alt="Top Image">
+                            <img class="image bottom" src="/img/casa1.jpeg" alt="b&b image">
                         </div>
                     </div>
 
@@ -42,8 +42,8 @@
                    
                     <div class="container-right">
                         <div  id="container">
-                            <img class="image top2" src="../assets/img/pratoepiscina.jpeg" alt="Top Image">
-                            <img class="image bottom2" src="../assets/img/piscina3.jpeg" alt="Bottom Image">
+                            <img class="image top2" src="/img/pratoepiscina.jpeg" alt="Top Image">
+                            <img class="image bottom2" src="/img/piscina3.jpeg" alt="Bottom Image">
                         </div>
                     </div>
                    
@@ -125,17 +125,17 @@ export default {
                 {
                     title: 'Card title 1',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/piscina3.jpeg'
+                    image: '/img/piscina3.jpeg'
                 },
                 {
                     title: 'Card title 2',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/piscinaultima.jpeg'
+                    image: '/img/piscinaultima.jpeg'
                 },
                 {
                     title: 'Card title 3',
                     description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-                    image: '../src/assets/img/prato2.jpeg'
+                    image: '/img/prato2.jpeg'
                 },
 
             ]

@@ -3,7 +3,7 @@
 
         <nav class="container d-flex justify-content-between pt-2 bg-white">
             <div class="img-container">
-                <img src="../assets/img/2.png" alt="">
+                <img src="/img/2.png" alt="">
             </div>
 
             <div class=" none-1 d-flex align-items-center">
