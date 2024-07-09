@@ -229,7 +229,5 @@ main {
         z-index: 0;
         /* Posto sotto l'altra immagine */
     }
-
-    
 }
 </style>

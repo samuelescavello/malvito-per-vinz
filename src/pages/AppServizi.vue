@@ -22,22 +22,65 @@
                 <div class="row my-5 text-center">
                     <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(card, index) in cards" :key="index">
                         <div class="card">
-                            <img :src="card.image"  :alt="card.title">
+                            <img :src="card.image" :alt="card.title">
                         </div>
                     </div>
                 </div>
             </div>
             <h2 class="text-center "><em>colazione</em></h2>`
-            <p>La prima colazione è il momento più importante di tutta la giornata, perché ci deve ricaricare dopo il digiuno notturno.
-Al mattino possiamo anche toglierci la voglia di qualcosa di dolce...
-La colazione servita nella nostra accogliente cucina comprende: caffè (tè, latte, cappuccino, cioccolata), brioches, fette biscottate, pane, burro e marmellata, cereali, succhi di frutta, torte fatte in casa assicurando un pieno di energia per tutta la giornata.
-Nel caso necessitate di cibi particolari o siate allergici possiamo venire incontro alle vostre esigenze, se avvisati con dovuto anticipo.</p>
+            <p>La prima colazione è il momento più importante di tutta la giornata, perché ci deve ricaricare dopo il
+                digiuno notturno.
+                Al mattino possiamo anche toglierci la voglia di qualcosa di dolce...
+                La colazione servita nella nostra accogliente cucina comprende: caffè (tè, latte, cappuccino,
+                cioccolata), brioches, fette biscottate, pane, burro e marmellata, cereali, succhi di frutta, torte
+                fatte in casa assicurando un pieno di energia per tutta la giornata.
+                Nel caso necessitate di cibi particolari o siate allergici possiamo venire incontro alle vostre
+                esigenze, se avvisati con dovuto anticipo.</p>
             <div class="row my-5 text-center">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(last, index) in colazione" :key="index">
                     <div class="card" id="card-colazione">
-                        <img :src="last.image"  :alt="last.title">
+                        <img :src="last.image" :alt="last.title">
                     </div>
                 </div>
+            </div>
+            <div>
+                <h2 class="text-center"><em>cosa visitare</em></h2>
+                <div>
+                    Malvito sorge sulla cima di un poggio alla destra dell' Esaro ed offre una veduta paesaggistica
+                    singolare. Si ritiene sia uno dei poci centri calabresi di origine Longobarda, 
+                    I caratteri di fortezza medievali sono ancora oggi visibili: le case sovrapposte in un
+                    caratteristico groviglio di viuzze strette che, di tanto in tanto si aprono su improvvisi larghi
+                    dove si trovano antichi palazzi con artistici portali in tufo.
+                    E' da visitare, all'estremità della collina, posto a dominio della vallata, il castello
+                    Longobardo-Normanno, le cui origini sono da collocare nel IX - X secolo.
+                    E' composto dal Mastio normanno (torre principale) di forma cilindrica cui si può accedere tramite
+                    una scaletta elicoidale. Si può anche entrare dal cortile centrale attraverso una scala chiamata di
+                    scala francese, che comunica alla cortina.
+                    Nel cortile vi è anche l'ingresso ad una sala interrata a forma di cripta.
+                    Una campagna varia e ricca di angoli piacevoli, circonda Malvito in un' atmosfera di colori specie
+                    in direzione della valle dei mulini. Altra area da vedere è quella degli scavi di Pauciuri, dove è
+                    stato riportato alla luce un settore di un edificio monumentale databile al 110 a.C..
+                    Si tratta di una villa romana che presenta due diverse fasi di costruzione: nella prima si possono
+                    individuare magazzini per derrate; nella seconda la costruzione di impianti termali di cui si
+                    distingue un praefurnium.
+                    Successivi scavi assegnano al complesso una funzione pubblica facendo anche ipotizzare la presenza
+                    di una stazione che la metteva in comunicazione con l' alto tirreno cosentino.
+                    In mezzo alle rovine venne sistemata una necropoli bizantina, il primo scoperto in Calabria. Dalla
+                    necropoli sono state scavate diciotto tombe dove sono stati rinvenuti numerosi reperti, tra i quali,
+                    un anello a croce greco-bizantina.
+                    Da segnalare inoltre che Malvito è gemellata, fin dagli inizi degli anni '70 con Rognes, cittadina
+                    francese della Provenza, a pochi chilometri da Marsiglia, con la quale ha stretto rapporti di
+                    amicizia e che ha avuto come protagonisti i due sindaci pionieri del federalismo europeo, Oscar
+                    Principe e Robert Verrier, che conferì a Malvito lo storico primato di essere stato uno tra i primi
+                    comuni italiani ad aderire al progetto di unificazione europea.
+                </div>
+                <div class="row my-5 text-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="(last, index) in malvito" :key="index">
+                    <div class="card" id="card-colazione">
+                        <img :src="last.image" :alt="last.title">
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
 
@@ -115,6 +158,34 @@ export default {
                     image: '../src/assets/img/col5.jpeg'
                 },
 
+            ],
+
+            malvito: [
+                {
+                 
+                    image: '../src/assets/img/malv11.jpeg'
+                },
+                {
+                    
+                    image: '../src/assets/img/malv12.jpeg'
+                },
+                {
+                    
+                    image: '../src/assets/img/malv13.jpeg'
+                },
+                {
+                    
+                    image: '../src/assets/img/malv14.jpeg'
+                },
+                {
+                    
+                    image: '../src/assets/img/malv15.jpeg'
+                },
+                {
+                    
+                    image: '../src/assets/img/malv16.jpeg'
+                },
+
             ]
         };
     }
@@ -124,14 +195,16 @@ export default {
 <style lang="scss" scoped>
 main {
     margin-top: 100px;
-    #card-colazione{
+
+    #card-colazione {
         width: 100%;
         height: 300px;
-        img{
+
+        img {
             width: 100%;
             height: 100%;
         }
     }
-    
+
 }
 </style>
